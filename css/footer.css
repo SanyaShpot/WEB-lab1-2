@@ -1,0 +1,33 @@
+.footer {
+    width: 289px;
+    height: 51px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+    margin-bottom: 52px;
+}
+
+.footer__topic {
+    font-size: 16.65px;
+    font-weight: 700;
+    line-height: 20.13px;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 11.09px;
+    font-weight: 500;
+    line-height: 13.05px;
+    text-align: center;
+    color: #73738D;
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

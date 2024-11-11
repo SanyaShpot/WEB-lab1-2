@@ -1,0 +1,128 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__nav-ul {
+    display: flex;
+    list-style: none;
+}
+
+.header__nav-item {
+    margin-right: 40px;
+    font-size: 11.09px;
+    font-weight: 600;
+    line-height: 13.23px;
+}
+
+.header__title {
+    font-size: 24.12px;
+    font-weight: 700;
+    line-height: 29.16px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.header__login-item {
+    font-size: 11.09px;
+    font-weight: 600;
+    line-height: 13.23px;
+    margin-right: 200px;
+}
+
+.header__button {
+    width: 118.51px;
+    height: 31.88px;
+    border-radius: 34px;
+    border: 1px solid #1943EF;
+    background-color: white;
+    font-size: 11.09px;
+    color: #1943EF;
+    font-weight: 600;
+    line-height: 13.23px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1100;
+}
+
+.humburger_icon {
+    width: 35px;
+    height: 35px;
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header__button {
+        display: none;
+    }
+
+    .header__nav-ul {
+        display: none;
+        position: fixed;
+        top: 60px;
+        right: 20px;
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        border: 3px solid #ddd;
+        width: 150px;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+    .menu-toggle:checked ~ .header__nav .header__nav-ul {
+        display: block;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .header__nav-ul li {
+        list-style: none;
+        padding-top: 15px;
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .header__nav .header__login-item {
+        padding-top: 0;
+    }
+
+    .header__nav-ul li a {
+        color: #333;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
+
+    .header__nav-ul li a:hover {
+        color: #1943EF;
+    }
+}

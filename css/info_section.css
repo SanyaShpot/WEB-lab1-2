@@ -1,0 +1,349 @@
+.info_section {
+    padding-top: 80px;
+}
+
+.info_section__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16.67px;
+}
+
+.info_section__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_section__signboards {
+    display: flex;
+    flex-direction: column;
+    gap: 16.67px;
+    padding-left: 65px;
+}
+
+.info_section__signboard {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: auto;
+    padding: 16px;
+    border-radius: 16.63px;
+    box-shadow: 0px 13.86px 55.44px 0px #F2F5FA;
+    background-color: #FFFFFF;
+}
+
+.info_section__image {
+    margin-right: 16px;
+}
+
+.info_section__paragraph {
+    width: 300px;
+    font-size: 11.09px;
+    font-weight: 500;
+    line-height: 16.63px;
+}
+
+.info_section__followup {
+    color: #AAAAAA;
+}
+
+.info_section__text {
+    max-width: 360px;
+    padding-right: 20px;
+}
+
+.info_section__title {
+    font-size: 24.95px;
+    font-weight: 700;
+    line-height: 30.16px;
+}
+
+.info_section__text__paragraph {
+    max-width: 343px;
+    font-size: 14.55px;
+    font-weight: 500;
+    line-height: 21.83px;
+    color: #73738D;
+}
+
+.info_section__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.info_section__list_item {
+    font-size: 11.09px;
+    font-weight: 500;
+    line-height: 16.63px;
+    color: #73738D;
+}
+
+.info_section__circle {
+    display: inline-block;
+    width: 51.98px;
+    height: 51.98px;
+    border-radius: 31.88px;
+    background-color: #E4F7F2;
+    margin-top: 90px;
+    margin-left: 65px;
+}
+
+.info_section__circle_v2 {
+    width: 51.98px;
+    height: 51.98px;
+    border-radius: 31.88px;
+    background-color: #E4F7F2;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.info_section__recycle {
+    margin-top: 14px;
+    margin-left: 11px;
+}
+
+.info_section__circle img {
+    animation: spin 2s linear infinite;
+}
+
+
+
+.info_section__mid {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+}
+
+.info_section__person_data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 352px;
+    max-height: 210px;
+    border-radius: 20.79px;
+    box-shadow: 0px 13.86px 55.44px 0px #F2F5FA;
+    background-color: #FFFFFF;
+    padding: 16px;
+    margin-top: 16.67px;
+    gap: 16px;
+}
+
+.info_section__person_info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.info_section__image_v2 {
+    width: 41.58px;
+    height: 41.58px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.info_section__text_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.profile_name {
+    font-size: 16.63px;
+    font-weight: 600;
+    line-height: 19.84px;
+}
+
+.profile_job {
+    font-size: 11.09px;
+    font-weight: 500;
+    line-height: 13.05px;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.info_section__list_data {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 8px;
+    gap: 20px;
+}
+
+.info_section__list_data li {
+    margin-bottom: 16px;
+}
+
+
+.icon {
+    width: 13.8px;
+    height: 13.86px;
+}
+
+
+
+.info_section__bot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+}
+
+.info_section__anxiety {
+    width: 380px;
+    height: 159px;
+    margin-top: 172px;
+    border-radius: 20.79px;
+    box-shadow: 0px 13.86px 55.44px 0px #F2F5FA;
+    background-color: #FFFFFF;
+}
+
+.anxiety_topics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.people_on_the_list {
+    font-size: 11.09px;
+    font-weight: 500;
+    line-height: 13.05px;
+    margin-left: 17px;
+    margin-top: 0px;
+}
+
+.anxiety_text {
+    width: 307.17px;
+    height: 58.76px;
+    font-size: 9.7px;
+    font-weight: 500;
+    line-height: 17.46px;
+    color: #73738DCC;
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .info_section {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .info_section__top,
+    .info_section__bot,
+    .info_section__mid {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .info_section__circle,
+    .info_section__circle_v2 {
+        display: none;
+    }
+
+    .info_section__signboards {
+        padding-left: 0;
+    }
+
+    .info_section__text {
+        width: 300px;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .info_section__text__paragraph {
+        width: 300px;
+        padding: 0;
+    }
+
+    .info_section__anxiety {
+        width: 300px;
+        margin-top: 40px;
+    }
+    
+    .anxiety_text,
+    .people_on_the_list {
+        max-width: 280px;
+        text-align: left;
+    }
+    
+    .info_section__signboard {
+        max-width: 280px;
+        height: 60px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    }
+    
+    .info_section__image {
+        margin-right: 16px;
+    }
+
+    .info_section__person_data {
+        width: 280px;
+        text-align: left;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-top: 40px;
+    }
+
+    .info_section__text_content,
+    .info_section__text_content p {
+        max-width: 200px;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 2560px) {
+    .info_section {
+        padding-top: 40px;
+    }
+
+    .info_section__content {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .info_section__bot,
+    .info_section__top,
+    .info_section__mid {
+        flex-direction: column;
+        height: 690px;
+        max-height: 690px;
+        margin: 0;
+    }
+
+    .info_section__circle,
+    .info_section__circle_v2 {
+        display: none;
+    }
+
+    .info_section__signboards {
+        padding-left: 0;
+    }
+
+    .info_section__text {
+        text-align: center;
+    }
+
+    .info_section__anxiety {
+        margin-top: 0;
+    }
+
+    .info_section__bot p {
+        padding-bottom: 71px;
+    }
+}
